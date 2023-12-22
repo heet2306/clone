@@ -225,7 +225,7 @@ body {
 
 #shop .pro_co {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 20px;
     flex-wrap: wrap;
 }
@@ -530,6 +530,57 @@ footer a:hover {
 footer .copyright {
     width: 100%;
     text-align: center;
+}
+
+/* ----------------------------------------------SHOP Page CSS--------------------------- */
+
+#page-header {
+    background-image: url(img/banner/b1.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header p,
+#page-header h2 {
+    color: #fff;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ---------------------Single Product Page -------------------------- */
+#prodetail .singleproimg {
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
 }
 
 /* Media Screen For Tab  */
