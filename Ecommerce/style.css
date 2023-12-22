@@ -329,8 +329,9 @@ body {
 }
 
 #subshop {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -340,7 +341,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     background-image: url(img/banner/b17.jpg);
-    min-width: 495px;
+    min-width: 100%;
     height: 40vh;
     background-size: cover;
     background-position: initial;
