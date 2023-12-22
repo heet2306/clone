@@ -608,17 +608,33 @@ footer .copyright {
     padding: 5px 18px;
     margin-bottom: 10px;
 }
-#prodetail .single-pro-detail input{
-    width: 50%;
+
+#prodetail .single-pro-detail input {
+    width: 50px;
     height: 47px;
     padding-left: 10px;
     font-size: 16px;
     margin-right: 10px;
 }
+
 #prodetail .single-pro-detail button {
     background-color: #088178;
     color: #fff;
 }
+
+#prodetail .single-pro-detail input:focus {
+    outline: none;
+}
+
+#prodetail .single-pro-detail span {
+    line-height: 25px;
+}
+
+/* --------------------------------------------BLOG Page CSS------------------------------ */
+#page-header.blog-header {
+    background-image: url(img/banner/b19.jpg);
+}
+
 /* Media Screen For Tab  */
 @media (max-width:799px) {
     .section-p1 {
@@ -790,4 +806,20 @@ footer .copyright {
         font-size: 15px;
         margin: 0 0 8px 0;
     }
+
+    /* ------------------------------Single Product  ---------------------------*/
+    #prodetail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetail .singleproimg {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetail .single-pro-detail {
+        width: 100%;
+    }
+
 }
