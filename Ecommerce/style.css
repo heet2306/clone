@@ -72,6 +72,7 @@ body {
     width: 100%;
 }
 
+/* =------------------------------------HOME Page Css ------------------------------*/
 /*--------------------------------------------------- HEADER START */
 #header {
     display: flex;
@@ -569,7 +570,7 @@ footer .copyright {
     font-weight: 600;
 }
 
-/* ---------------------Single Product Page -------------------------- */
+/* -------------------------------------Single Product Page -------------------------- */
 #prodetail {
     display: flex;
     margin-top: 20px;
@@ -699,7 +700,7 @@ footer .copyright {
     z-index: -9;
 }
 
-/* Media Screen For Tab  */
+/*--------------------------------------------- Media Screen For Tab------------  */
 @media (max-width:799px) {
     .section-p1 {
         padding: 40px 40px;
@@ -808,7 +809,22 @@ footer .copyright {
     }
 }
 
-/* Media Screen For Mobile  */
+/* ---------------------------------------About Page Css------------------------ */
+#page-header.about-header {
+    background-image: url(img/about/banner.png);
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div{
+    margin-left: 40px;
+}
+/* --------------------------Media Screen For Mobile------------------------------ */
 @media (max-width:477px) {
     .section-p1 {
         padding: 20px;
@@ -888,11 +904,23 @@ footer .copyright {
 
     /* ----------------------------Blog Mobile Media------------------------------ */
 
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
     #blog .blog-box {
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-img {
         width: 100%;
-        position: relative;
-        padding-bottom: 90px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-detalis {
+        width: 100%;
     }
 }
